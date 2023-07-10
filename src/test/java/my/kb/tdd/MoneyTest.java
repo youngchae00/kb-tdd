@@ -24,6 +24,8 @@ public class MoneyTest {
     public void testEquality() {
         assertTrue(new Dollar(5).equals(new Dollar(5)));
         assertFalse(new Dollar(5).equals(new Dollar(6)));
+        assertTrue(new Fran(5).equals(new Fran(5)));
+        assertFalse(new Fran(5).equals(new Fran(6)));
     }
 
 }
